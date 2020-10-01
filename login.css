@@ -1,3 +1,6 @@
+*{
+    font-family: 'Bree Serif', serif;
+}
 .container{
     display: grid;
     grid-template-columns: 2fr 0fr 2fr;
@@ -17,9 +20,10 @@
     grid-column: 1/2;
     margin-left: 50px;
     height:600px;
-    /* width: 70%; */
+    width: 100%;
     text-align: center;
-    background: #393E3E;
+    background: #435555;
+    border-radius: 50px;
 }
 .logo{
     border:1px solid transparent;
@@ -67,4 +71,18 @@ img{
 }
 .btn{
     background: #1E474E;
+}
+.btn:hover
+
+{
+    cursor: pointer;
+    background: orange;
+    color: black;
+}
+.bttn:hover
+
+{
+    cursor: pointer;
+    background: cyan;
+    color: black;
 }
